@@ -1,0 +1,113 @@
+// HTML is hyper text markup language
+it has HTML DOM ( tree like structure)
+browser have the capacity to pass and render these DOM
+browser traverse or render the web page-> 
+html is the markup language and is used in the client side
+css is the styling language and is used to style the webpage
+html and css can only create static website , basically read heavy website ,No dynamic used
+JavaScript is created to manipulate the DOM , to make our website alive, and basciclly to do User Interaction
+
+Browsers have dno't capacity to understand javascript , It have some javascript engine callled javascript engine
+These javascript engine converts JS Sourse Code -> Machine Code 
+Chrome has JavaScript engine called V8 engine that help Google Chrome to understand Javascript language by converting JS Source Code to machine Code 
+Mozilla FireFox has javascript engine called Spider Monkey that help mozilla to understand Javascript language by Converting JS Source Code to Machine Code 
+Edge has Javascript engine known as Chakra , 
+All these javascript engines help browsers to undertand jS code and JS code to be executed
+
+
+HTML, CSS, JavaScript All are Client Side Languages. That helps us to do stuffs in the client side
+
+In Internet Exproler time we are having cicle button and rendering took place in 1 Mini
+SO, Today we are having DOM Manipulation , DOM reads all the functionality , every button, every single item, everything, DOM has.
+
+After that all frameworks having motivation to lesser the time of rendering
+Time of Rendering decrace after coming of JQuery, React Js
+Now, only new dom creates on old dom, but in elair days any part of dom changes it takes enough time , and it is not good
+Now, now those parts of DOM changes that are affected.
+DOM1 -> DOM2 (All changes by reconcilation method changes very smothlly)
+
+React is these for DOM Updation, No, new DOM is formed just just chanegs are done to actual dom by comparign with the virtual dom , 
+which react have, But in eailer days all the features of dom changes to new 
+
+ALL the website build using react and new framework , have very less loading time , 
+less rendering time, beacuase the framework help it to change only the part of dom that needs to change , not all the aprts of the website
+
+ ALL Client Side Languages & browsers made up of are HTML, CSS, JavaScript, Reactjs,
+
+
+ALL The client deals with only browsers only, ALL interactions happns in client side 
+BY The end of the React is just top in JS. It's Just the JS framework
+
+ALl the Business logic written only on server side.
+
+Browsers sends the http request, tcp request .. AND server serves the response , sends the response , .. ALL the communication standard in cliend side is known as REST API. 
+
+Client through Browser sends the API to the Server where business logic , imp data is stored  like /gethjsvchjqs. and server will then sends the resonse to the client and the whole proces is done by REST API
+
+When Different clients request something from server througth API. like /api/highlights. Then server will sends independent and completely solo response to each server.
+These server side languages are like PHP, Ruby and Rails, Nodejs.
+All these languages help to understand request and can make API's to send response.   
+
+There are two types of rendering CSR, SSR Fast and loads fast , SEO blogs (to rank on top of page), 
+for updation CSR is helpful, for static content SSR is helpful, for blogs SEO is helpful
+
+
+API's are like functions that are written on server side , client or browsers can call these functions or API that performs the task.
+
+earlier have 2 -Tier Architechture, Client, Server 
+Now have 3- Tier Architechture -> Client browser, Server (where business logic is written), Storage or Database (where server stores it's data in forms of tables ),
+
+3- Tier Architechture
+
+client --call an APi --> server(API hits)--> Database(tabel of that data)
+          Request->            After that it will Respond (Response)  <-
+ReactJS          Node JS (Top of it Express JS used )     MongoDB 
+
+MERN Stack -> MongoDb, Express, React JS , Node JS 
+
+MongoDB is the NoSQL database, it does not have tables, it has collections which stores documents, Mentain the scema
+MongoDB has local and cloud databases, for cloud Database we will use MongoDB Atlas, 
+
+This MongoDB cloud connect MongoDB Atlas to local NodeJS Database using URL 
+MongoDB has it's own cloud DB that is MongoDB Atlas
+
+Bootstrap is for CSS (having predefined functions and logic that make easy to code and make code easy)
+Same as Express is for Node JS ( Express JS is like full of libraries to make Node js easy to write and understand and fast)
+Express is basically framework to Node JS.
+Express easallh connects with mongodb , forming connections, 
+MongoDB have Mongooes, same b/w Nodejs and Mongodb have ORM's and ODM's , express help in making connects easly by connecting with these ORM's using python code very easilly.
+With Express we can connect with local host 8000, using 1 line only , It makes our life easier\
+import express -> 
+const express= require("express");
+having alot of Routes that helps in better connections
+app.get("/foods",foodControllers.findALl);
+This calling is known as MVC Architecture 
+
+GITHUB(Version Control Management System)
+GIT is inside github . Git allows developers to work on single file apart from differnt locstion, differnt systems, git is tool used by many companies
+
+Repo is any activity or folders of files inside the system.
+1. Step -> We can clone a repo in our system
+ Clone is just to take all the files from repository to your local
+JUST write 
+git clone URL  --> cd any file -> ls to find all the list inside it
+
+main line branch of any company --> 
+best practice is to make your own branch , add changes to it only, and if that will confirm by senior developer then the code goes into production.
+
+//?  to make new file in folder-->  git init my-repo
+cd name     // cd my-repo 
+make changes
+showing all the changes -> Git status will give you the status of all the changes 
+adding the added part -> Git add filename. It will stage your changes
+snapshot --> Git commit is taking a snapshot of this particular time. can show all commit in github
+final step -> git push origin master/main/any other branch
+to checkout branch -> git branch
+to add new branch  -> git branch newbranch
+to checkout newbranch --> git checkout newbranch
+
+to come out from that file --> cd..
+
+
+Jquery is also javascript library that helps to improve JS code 
+but  react is so much helpful like it is compositive, declarative in nature, react is so much good it fast the javascript code right 
